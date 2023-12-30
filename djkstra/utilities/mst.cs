@@ -5,6 +5,9 @@ namespace MinimumSpanningTree;
 class Dijstra 
 {
     public int[] dijstra(int[,] adjacent_matrix, int depot)
+    /* this function returns array with the previous nodes. 
+    (for example [i] is the previuos node of i,  
+    the edge [i]->i is an edge of minimum spanning tree) */
     {   
         int number_nodes = adjacent_matrix.GetLength(0);
         List<int> unvisited_nodes = Enumerable.Range(0, number_nodes).ToList();
@@ -39,6 +42,7 @@ class Dijstra
             return previous_nodes;
     }
     static int nearest_node(int[] distance_measure, List<int> unvisited_nodes)
+    // returns the node not jet visited with minor distance from the source  
     {
         int len_distance_measure = distance_measure.GetLength(0);
         int node_min_value = len_distance_measure;
@@ -57,6 +61,7 @@ class Dijstra
     }
    
     public void print_mst(int[] array)
+    // print minimun spanning tree
     {
         int len_array = array.GetLength(0);
         for (int i=0; i<len_array; i++)

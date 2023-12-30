@@ -40,11 +40,13 @@ public class Program
 
     public void Main()
     {   
+        /* define a random graph */
         int NUMBER_NODES = 10;
         int[,] distance_matrix = Program.get_matrix_distance(NUMBER_NODES);
         
         Program.print_matrix_distance(distance_matrix);
 
+        /* run Dijkstra algorithm */
         MinimumSpanningTree.Dijstra search_alg = new MinimumSpanningTree.Dijstra();
         int[] prev_node = search_alg.dijstra(distance_matrix, 5);
         search_alg.print_mst(prev_node);
