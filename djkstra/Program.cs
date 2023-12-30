@@ -38,7 +38,7 @@ public class Program
     }
 
 
-    static void Main()
+    public void Main()
     {   
         int NUMBER_NODES = 10;
         int[,] distance_matrix = Program.get_matrix_distance(NUMBER_NODES);
@@ -46,7 +46,7 @@ public class Program
         Program.print_matrix_distance(distance_matrix);
 
         MinimumSpanningTree.Dijstra search_alg = new MinimumSpanningTree.Dijstra();
-        search_alg.dijstra(distance_matrix, 0);
-
+        int[] prev_node = search_alg.dijstra(distance_matrix, 5);
+        search_alg.print_mst(prev_node);
     }
 }    
