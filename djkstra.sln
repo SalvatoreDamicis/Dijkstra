@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "djkstra", "djkstra\djkstra.csproj", "{DBAE24AA-EDEC-4AB5-99F8-2DDCEC11F9A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "djkstra", "djkstra", "{CA80A9DA-A4EA-466A-A7F0-E3AD6EA5758A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utilities", "utilities", "{A5AB99FC-4B9D-4ABE-9BE4-173E20945B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijstra", "djkstra\utilities\Dijstra\Dijstra.csproj", "{B3100B0B-F998-466F-96F4-B0D9B5E1E830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBAE24AA-EDEC-4AB5-99F8-2DDCEC11F9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBAE24AA-EDEC-4AB5-99F8-2DDCEC11F9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBAE24AA-EDEC-4AB5-99F8-2DDCEC11F9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBAE24AA-EDEC-4AB5-99F8-2DDCEC11F9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3100B0B-F998-466F-96F4-B0D9B5E1E830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3100B0B-F998-466F-96F4-B0D9B5E1E830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3100B0B-F998-466F-96F4-B0D9B5E1E830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3100B0B-F998-466F-96F4-B0D9B5E1E830}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5AB99FC-4B9D-4ABE-9BE4-173E20945B2E} = {CA80A9DA-A4EA-466A-A7F0-E3AD6EA5758A}
+		{B3100B0B-F998-466F-96F4-B0D9B5E1E830} = {A5AB99FC-4B9D-4ABE-9BE4-173E20945B2E}
+	EndGlobalSection
+EndGlobal

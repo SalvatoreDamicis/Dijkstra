@@ -1,0 +1,15 @@
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.csproj.AssemblyReference.cache
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.AssemblyInfoInputs.cache
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.AssemblyInfo.cs
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.csproj.CoreCompileInputs.cache
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\bin\Debug\net6.0\djkstra.exe
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\bin\Debug\net6.0\djkstra.deps.json
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\bin\Debug\net6.0\djkstra.runtimeconfig.json
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\bin\Debug\net6.0\djkstra.dll
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\bin\Debug\net6.0\djkstra.pdb
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.dll
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\refint\djkstra.dll
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.pdb
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\djkstra.genruntimeconfig.cache
+C:\Users\s.damicis\Documents\Personal\e80\dijkstra\djkstra\obj\Debug\net6.0\ref\djkstra.dll
